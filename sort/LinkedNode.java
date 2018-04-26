@@ -73,8 +73,3 @@ public class LinkedNode<T extends Comparable<? super T>>{
 	}
 	
 }
-
-/*
-Note: 7 Note: 2 Note: 0 Note: 8 Note: 9 Note: 1 Note: 1 Note: 3 Note: 5 Note: 8 
-Note: 0 Note: 1 Note: 1 Note: 2 Note: 3 Note: 5 Note: 7 Note: 8 Note: 8 Note: 9 
-*/

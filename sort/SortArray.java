@@ -3,9 +3,12 @@ public class SortArray{
 	public static <T extends Comparable<? super T>> void selectionSort(T[] a,int n){
 			SelectionSort.selectionSort(a,n);
 	}
-	
+
 	public static <T extends Comparable<? super T>> void insertionSort(T[] a,int n){
 			InsertionSort.insertionSort(a,n);
 	}
-	
+
+    public static <T extends Comparable<? super T>> void shellSort(T[] a,int n){
+        ShellSort.shellSort(a,n);
+    }
 }

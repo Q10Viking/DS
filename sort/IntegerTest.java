@@ -20,7 +20,8 @@ public class IntegerTest{
 	public static void main(String[] args){
 		Integer[] nums={8,5,10,2};
 		Apple[] apples={new Apple(32),new Apple(20),new Apple(25),new Apple(40)};
-		SortArray.insertionSort(apples,apples.length);
+	//	SortArray.insertionSort(apples,apples.length);
+		SortArray.shellSort(apples,apples.length);
 		for(Apple apple: apples)
 			System.out.println(apple);
 	//	SortArray.selectionSort(nums,nums.length);
